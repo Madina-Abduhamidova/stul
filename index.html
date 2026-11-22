@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stul</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Cozy</div>
+
+      <nav>
+        <a href="#">SHOP</a>
+        <a href="#">COLLECTIVE</a>
+        <a href="#">DESIGNERS</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT</a>
+      </nav>
+
+      <div class="icons">
+        <span><i class="fa-solid fa-bars"></i></span>
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-cart-shopping"></i></span>
+      </div>
+    </header>
+
+    <main>
+      <div class="chair">Chair / <b>Meryl Lounge Chair</b></div>
+
+      <section class="product">
+        <div class="product-info">
+          <h1>Meryl Lounge Chair</h1>
+
+          <div class="price-rating">
+            <p class="price">$149.99</p>
+
+            <div class="rating">
+              <p>4.6 / 5.0 (550)</p>
+            </div>
+          </div>
+
+          <p class="text">
+            The gently curved lines accentuated by sewn details are kind to your
+            body and pleasant to look at. Also, there's a tilt and
+            height-adjusting mechanism that's built to outlast years of ups and
+            downs.
+          </p>
+
+          <div class="colors">
+            <button
+              onclick="seriy()"
+              class="color gray"
+              data-color="Gray"
+            ></button>
+            <button
+              onclick="yashil()"
+              class="color green active"
+              data-color="Green"
+            ></button>
+            <button
+              onclick="pushti()"
+              class="color pink"
+              data-color="Pink"
+            ></button>
+          </div>
+
+          <div class="buy-section">
+            <div class="quantity">
+              <button id="minus">-</button>
+              <span id="number">1</span>
+              <button id="plus">+</button>
+            </div>
+
+            <button class="cart" id="addCart">ADD TO CART</button>
+          </div>
+
+          <p class="shipping">
+            Free 2-5 day shipping Tool-free assembly 30-day trial
+          </p>
+        </div>
+
+        <div class="product-gallery yashil">
+          <div class="main-image">
+            <img src="./images/bir.jpg" id="mainImage" alt="" />
+          </div>
+
+          <div class="images">
+            <img src="./images/bir.jpg" class="image active" alt="" />
+
+            <img src="./images/oldidan.jpg" class="image" alt="" />
+            <img src="./images/yonidan.jpg" class="image" alt="" />
+          </div>
+        </div>
+
+        <div class="product-gallery pushti rang">
+          <div class="main-image">
+            <img src="./images/1-pushti.jpg" id="mainImage" alt="" />
+          </div>
+
+          <div class="images">
+            <img src="./images/1-pushti.jpg" class="image active" alt="" />
+
+            <img src="./images/oldidan-pushti.jpg" class="image" alt="" />
+            <img src="./images/yonidan-pushti.jpg" class="image" alt="" />
+          </div>
+        </div>
+        <div class="product-gallery seriy rang">
+          <div class="main-image">
+            <img src="./images/1-seriy.jpg" id="mainImage" alt="" />
+          </div>
+
+          <div class="images">
+            <img src="./images/1-seriy.jpg" class="image active" alt="" />
+
+            <img src="./images/olididan-seriy.jpg" class="image" alt="" />
+            <img src="./images/yonidan-seriy.jpg" class="image" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
